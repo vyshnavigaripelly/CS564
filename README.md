@@ -1,4 +1,4 @@
-# CS 564 (Spring 2019): Database Management Systems @ UWMadison
+# CS 564 (Spring 2020): Database Management Systems @ UWMadison
 
 | Project            | Documents     | Code     | Report | 
 | ------------------ | ------------------------ | ---------------------- | ---------------- |
