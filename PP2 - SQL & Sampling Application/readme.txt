@@ -1,19 +1,7 @@
-﻿Shawn Zhong & Suyan Qu & Jialuo Gao
+
 CS 564: Database Management Systems
 PP 2: SQL
-Mar. 10, 2019
-
-
-Group Member
-* Shawn Zhong: 
-   * CS Login: szhong
-   * Net ID: wzhong36
-* Suyan Qu: 
-   * CS Login: suyan
-   * Net ID: squ27
-* Jialuo Gao: 
-   * CS Login: jialuo
-   * Net ID: jgao223
+Feb. 10, 2020
 How to run
 * Use make sql to run 10 SQL queries for part A
 * Use make run-jar to run the executable jar file for part B
