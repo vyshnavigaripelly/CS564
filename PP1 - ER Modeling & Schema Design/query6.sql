@@ -1,0 +1,1 @@
+SELECT count(distinct seller_id) FROM ItemSeller where seller_id in (SELECT distinct bidder_id FROM Bid)

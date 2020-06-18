@@ -1,0 +1,1 @@
+select count(*) from user where location_id in (select location_id from location where location = "New York");

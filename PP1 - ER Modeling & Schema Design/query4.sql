@@ -1,0 +1,1 @@
+select item_id from Item order by currently desc limit 1;

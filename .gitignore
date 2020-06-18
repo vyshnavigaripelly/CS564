@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+*.class
+PP2/result.txt
+PP3/cmake-build-debug/*
+*.pyc

@@ -1,0 +1,47 @@
+{% extends "app_base.html" %}
+{% block content %}
+
+{% if item %}
+<h3>Item Info:</h3>
+{% for key in item %}
+<div>
+	<span>{{ key|e }}</span>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span>{{ item[key]|e }}</span>
+</div>
+{% endfor %}
+{% endif %}
+
+
+
+{% if bids %}
+<h3>Bids:</h3>
+<table width="100%">
+	<tr>
+		<th>Amount</th>
+		<th>User</th>
+		<th>Time</th>
+	</tr>
+	{% for bid in bids %}
+	<tr>
+		{% for key in bid %}
+		<td>{{bid[key] | e}}</td>
+		{% endfor %}
+	</tr>
+	{% endfor %}
+</table>
+{% endif %}
+
+
+{% if winner %}
+<h3>WINNER:</h3>
+<div>
+	{% for key in winner %}
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span> {{key|e}}; </span>
+	<span>{{ winner[key]|e }}</span>
+	{% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}

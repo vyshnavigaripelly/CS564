@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: Shawn Zhong
+Main-Class: pgtest
+Class-Path: postgresql-8.4-703.jdbc4.jar
